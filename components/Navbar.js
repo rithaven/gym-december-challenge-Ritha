@@ -17,16 +17,13 @@ const Navbar = () => {
          <div className='w-full '>
             <div className='flex items-center h-20 w-full'>
                 <div className='flex items-center mx-20 justify-between w-full'>
-
                     <div className='flex justify-center items-center flex-shrink-0 text-white'>
                        <Image src={MnImg} alt="logo" width={50} height={50} />
                        <Image src={lgImg} alt="logo" width={50} height={50} />
                        <p className='w-24 ml-4'> Technical University of Munich</p>
                     </div>
-                    
                     <div className='hidden md:block'>
                         <div className='ml-10 grid-cols-7  space-x-2  text-white font-semibold text-xs '>
-
                             <Link href='Home' className='hover:underline'>AKTUELLES  </Link>
                             <Link href='Studies' className='hover:underline'>STUDIES </Link>
                             <Link href='Learning' className='hover:underline'>LEBENSLANGESLERNEN </Link>
@@ -48,11 +45,8 @@ const Navbar = () => {
                        
                        </div>
                     </div>
-
                 </div>
-
             </div>
-
          </div>
         </div>
     </div>
