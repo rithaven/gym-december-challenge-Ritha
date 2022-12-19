@@ -69,7 +69,36 @@ const GridCards = () => {
 
                 <p className="absolute bottom-0 bg-slate-100 px-2">Research</p>
             </div>
+            <div>
+          <p>WirtschaftsWoche rankings</p>
+          <h2 className="font-bold">
+            Germany's strongest university in business sciences
+          </h2>
+          <p>
+            TUM has retained its ranking as Germany’s strongest research
+            university in business sciences. The latest issue of the...
+          </p>
+          <div className="grid grid-cols-2">
+            <p>12/16/2022</p>
+            <p>Reading Tim 2 min.</p>
+          </div>
         </div>
+        <div>
+          <p>Search for dark matter</p>
+          <h2 className="font-bold">
+            Antihelium nuclei as messengers from the depths of the galaxy
+          </h2>
+          <p>
+            How are galaxies born, and what holds them together? Astronomers
+            assume that dark matter plays an essential role. However,...
+          </p>
+          <div className="grid grid-cols-2 mt-5">
+            <p>12/13/2022</p>
+            <p>Reading Tim 2 min.</p>
+          </div>
+        </div>
+        </div>
+        
       </div>
       
     </div>
