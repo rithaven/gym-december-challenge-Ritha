@@ -19,19 +19,19 @@ const Navbar = () => {
                 <div className='flex items-center mx-20 justify-between w-full'>
 
                     <div className='flex justify-center items-center flex-shrink-0 text-white'>
-                       <Image src={MnImg} alt="logo" width={50} height={100} />
-                       <Image src={lgImg} alt="logo" width={50} height={100} />
+                       <Image src={MnImg} alt="logo" width={50} height={50} />
+                       <Image src={lgImg} alt="logo" width={50} height={50} />
                        <p className='w-24 ml-4'> Technical University of Munich</p>
                     </div>
                     
                     <div className='hidden md:block'>
-                        <div className='ml-10 grid-cols-7  space-x-2  text-white font-bold text-sm '>
-                         
+                        <div className='ml-10 grid-cols-7  space-x-2  text-white font-semibold text-xs '>
+
                             <Link href='Home' className='hover:underline'>AKTUELLES  </Link>
-                            <Link href='Home' className='hover:underline'>STUDIES </Link>
+                            <Link href='Studies' className='hover:underline'>STUDIES </Link>
                             <Link href='Learning' className='hover:underline'>LEBENSLANGESLERNEN </Link>
-                            <Link href='Project' className='hover:underline'>RESEARCH </Link>
-                            <Link href='Innovation' className='hover:underline'>INNOVATION </Link>
+                            <Link href='Projects' className='hover:underline'>RESEARCH </Link>
+                            <Link href='Innovations' className='hover:underline'>INNOVATION </Link>
                             <Link href='Community' className='hover:underline'>COMMUNITY </Link>
                             <Link href='About' className='hover:underline'>ABOUT TUM </Link>
                         </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
                             <Link href='Home' className='bg-white w-1 ml-3 sm:ml-4'> </Link>
                             <Link href='Home'>EN </Link>
                         </div>
-                       <div className='grid grid-cols-2'>
+                       <div className='flex'>
                        <Image src={Search} alt="logo" width={30} height={30} />
                        <Image src={brImg} alt="logo" width={30} height={30} className=" lg:hidden" />
                        
