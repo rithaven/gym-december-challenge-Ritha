@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import GImg1 from "../public/teach.jpg";
-import Photo from "../public/g.PNG";
+import Photo from "../public/3D.jpg";
 import Leibniz from '../public/boy.jpg';
 import Sastain from '../public/sustain.jpg';
 
