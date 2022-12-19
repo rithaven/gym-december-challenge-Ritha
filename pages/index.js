@@ -6,6 +6,8 @@ import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import GridCards from '../components/GridCards'
 import Footer from '../components/Footer'
+import { FONT_LOADER_MANIFEST } from 'next/dist/shared/lib/constants'
+import SecondFooter from '../components/SecondFooter'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +24,7 @@ export default function Home() {
      <Hero />
      <GridCards />
      <Footer />
+     <SecondFooter />
     </>
   )
 }

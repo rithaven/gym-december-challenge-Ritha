@@ -5,7 +5,7 @@ import icon from "../public/assets/two.svg";
 
 const Footer = () => {
   return (
-    <div className="bg-blue w-full ">
+    <div className="bg-lightblue w-full ">
       <div className="grid grid-cols-3 gap-1 p-10 text-white">
         <div>
           <div className=" grid grid-cols-2 gap-0 text-white">
@@ -32,20 +32,40 @@ const Footer = () => {
         </div>
       </div>
       <hr className=" bg-white mx-10" />
-     <div className="flex text-white pt-4 gap-7">
+     <div className="flex text-white pt-4 gap-7 ml-4">
         <div>
           <p className="font-bold w-11 mr-10">Schools and Departments:</p>
         </div>
         <div>
+          <div className="flex">
               <p>Computation, Information and Technology </p>
               <p>Engineering and Design</p>
               <p>Natural Sciences </p>
               <p>Life Sciences</p>
               <p>Management</p>
+          </div>
+          <div className="flex">
               <p>Social Sciences and Technology</p>
               <p>Medicine</p>
               <p>Sport and Health Sciences </p>
-          
+          </div>
+        </div>
+      </div>
+      <div className="flex text-white pt-4 gap-7 ml-4">
+        <div>
+          <p className="font-bold w-11 mr-10">Quicklinks:</p>
+        </div>
+        <div>
+          <div className="flex">
+              <p>Persons (TUMonline)  </p>
+              <p>IT Services</p>
+              <p>Calendar </p>
+              <p>MyTUM</p>
+              <p>Rooms (TUMonline) </p>
+              <p>University Library </p>
+              <p>TUMshop </p>
+          </div>
+         
         </div>
       </div>
      </div>
