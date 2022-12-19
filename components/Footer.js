@@ -5,7 +5,7 @@ import icon from "../public/assets/two.svg";
 
 const Footer = () => {
   return (
-    <div className="bg-lightblue w-full ">
+    <div className="bg-lightblue w-full pb-5">
       <div className="grid grid-cols-3 gap-1 p-10 text-white">
         <div>
           <div className=" grid grid-cols-2 gap-0 text-white">
