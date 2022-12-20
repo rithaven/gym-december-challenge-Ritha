@@ -23,17 +23,23 @@ const Navbar = () => {
                        <p className='w-24 ml-4'> Technical University of Munich</p>
                     </div>
                     <div className='hidden md:block'>
+                        
                         <div className='ml-10 grid-cols-7  space-x-2  text-white font-semibold text-xs '>
-                            <Link href='Home' className='hover:underline'>AKTUELLES  </Link>
-                            <Link href='Studies' className='hover:underline'>STUDIES </Link>
-                            <Link href='Learning' className='hover:underline'>LEBENSLANGESLERNEN </Link>
+                            {
+                                ["STUDIES", "LEBENSLANGESLERNEN", "RESEARCH", "INNOVATION", "COMMUNITY", "ABOUT TUM"].map((v,k)=>{
+                                    return <Link href={v} key={k} className='hover:underline'>{v}  </Link>
+                                })
+                            }
+                            
+                            {/* <Link href='Studies' className='hover:underline'>STUDIES</Link>
+                            <Link href='Learning' className='hover:underline'>LEBENSLANGESLERNEN</Link>
                             <Link href='Projects' className='hover:underline'>RESEARCH </Link>
                             <Link href='Innovations' className='hover:underline'>INNOVATION </Link>
                             <Link href='Community' className='hover:underline'>COMMUNITY </Link>
-                            <Link href='About' className='hover:underline'>ABOUT TUM </Link>
+                            <Link href='About' className='hover:underline'>ABOUT TUM </Link> */}
                         </div>
                     </div>
-                    <div className='text-white font-bold grid grid-cols-2'>
+                    <div className='text-white font-bold grid grid-cols-2 sm:right-0'>
                         <div className='grid grid-cols-3'>
                             <Link href='Home'>Dev </Link>
                             <Link href='Home' className='bg-white w-1 ml-3 sm:ml-4'> </Link>
